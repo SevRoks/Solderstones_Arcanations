@@ -1,0 +1,49 @@
+{
+	"_meta": {
+		"sources": [{
+			"json": "Solderstones_Arcanations",
+			"abbreviation": "SA",
+			"full": "Solderstone's Arcanations",
+			"authors": [
+				"Bartholomew Solderstone",
+				"Chase Tarascio"
+			],
+			"convertedBy": [
+				"SevRoks"
+			],
+			"version": "1.0.0",
+			"url": "https://github.com/SevRoks/Solderstones_Arcanations",
+			"targetSchema": "1.0.0"
+		}],
+		"dateAdded": "5/23/2021",
+		"dateLastModified": "5/23/2021"
+	},
+
+	"item": [{
+		"name": "Drui's Staff of Cuith ",
+		"type": "M",
+		"weaponCategory": "Simple",
+		"weight": 4,
+		"dmg1": "1d8",
+		"dmg2": "1d6",
+		"dmgType": "P",
+		"property": [
+			"V"
+		],
+		"tier": "major",
+		"rarity": "uncommon",
+		"source": "Solderstones_Arcanations",
+		"value": 300,
+		"charges": 3,
+		"attachedSpells": [
+			"cure wounds"
+		],
+		"recharge": "dawn",
+		"reqAttune": "by a druid",
+		"sfcType": "druid",
+
+		"entries": [
+			"Tilly's Staff."
+		]
+	}]
+}
