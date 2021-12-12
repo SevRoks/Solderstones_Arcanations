@@ -17,8 +17,7 @@
 		"dateAdded": "5/23/2021",
 		"dateLastModified": "5/23/2021"
 	},
-	"race":[
-	{
+	"race": [{
 		"name": "Elf (Arctic)",
 		"source": "SA",
 		"page": 12,
@@ -26,12 +25,10 @@
 			"S"
 		],
 		"speed": 25,
-		"ability": [
-			{
-				"cha": 2,
-				"dex": 1
-			}
-		],
+		"ability": [{
+			"cha": 2,
+			"dex": 1
+		}],
 		"heightAndWeight": {
 			"baseHeight": 35,
 			"heightMod": "2d4",
@@ -45,22 +42,17 @@
 			"Uncommon Race",
 			"Tool Proficiency"
 		],
-		"languageProficiencies": [
-			{
-				"common": true
-			}
-		],
-		"skillProficiencies": [
-			{
-				"persuasion": true
-			}
-		],
+		"languageProficiencies": [{
+			"common": true
+		}],
+		"skillProficiencies": [{
+			"persuasion": true
+		}],
 		"soundClip": {
 			"type": "internal",
 			"path": "races/gnome.mp3"
 		},
-		"entries": [
-			{
+		"entries": [{
 				"name": "Age",
 				"type": "entries",
 				"entries": [
@@ -149,8 +141,7 @@
 		"hasFluff": true,
 		"hasFluffImages": true,
 		"srd": true
-	},
-
+	}],
 	"item": [{
 		"name": "Drui's Staff of Cuith ",
 		"type": "M",
