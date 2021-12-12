@@ -5,8 +5,7 @@
 			"abbreviation": "SA",
 			"full": "Solderstone's Arcanations",
 			"authors": [
-				"Bartholomew Solderstone",
-				"Chase Tarascio"
+				"Bartholomew Solderstone"
 			],
 			"convertedBy": [
 				"SevRoks"
@@ -18,6 +17,139 @@
 		"dateAdded": "5/23/2021",
 		"dateLastModified": "5/23/2021"
 	},
+	"race":[
+	{
+		"name": "Elf (Arctic)",
+		"source": "SA",
+		"page": 12,
+		"size": [
+			"S"
+		],
+		"speed": 25,
+		"ability": [
+			{
+				"cha": 2,
+				"dex": 1
+			}
+		],
+		"heightAndWeight": {
+			"baseHeight": 35,
+			"heightMod": "2d4",
+			"baseWeight": 35
+		},
+		"age": {
+			"mature": 100,
+			"max": 750
+		},
+		"traitTags": [
+			"Uncommon Race",
+			"Tool Proficiency"
+		],
+		"languageProficiencies": [
+			{
+				"common": true
+			}
+		],
+		"skillProficiencies": [
+			{
+				"persuasion": true
+			}
+		],
+		"soundClip": {
+			"type": "internal",
+			"path": "races/gnome.mp3"
+		},
+		"entries": [
+			{
+				"name": "Age",
+				"type": "entries",
+				"entries": [
+					"Although Arctic elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass their Christmas experience. An elf typically claims adulthood and an offical job around the age of 100 and can live to be 750 years old."
+				]
+			},
+			{
+				"name": "Alignment",
+				"type": "entries",
+				"entries": [
+					" Arctic Elves are ever loving creatures of joy and cheer. Their very existence is fueled by the desire to help others and spread Christmas cheer. The come in all forms of Good, from the truly lawful to the more mischevious chaotic."
+				]
+			},
+			{
+				"name": "Cold Resistance",
+				"entries": [
+					"You have resistance to cold damage."
+				],
+				"type": "entries"
+			},
+			{
+				"type": "entries",
+				"name": "Size",
+				"entries": [
+					"Arctic Elves of Earth range from 3 to 4 feet tall and average about 40 pounds, akin to gnomish size rather than Fey elves."
+				]
+			},
+			{
+				"name": "Christmas Cheer",
+				"entries": [
+					"You are always in the mood to spread Christmas joy and spread the word of giving. You have proficiency in the {@skill Persuasion} skill."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Santa's Blessing",
+				"entries": [
+					"Artic Elves are all infused with some magic of St. Nick. You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Craftsman's Slumber",
+				"entries": [
+					"Arctic Elves are accustomed to working long hours in the holiday season and as such need less sleep. You only need 5 hours to complete a long rest."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Languages",
+				"entries": [
+					"You can speak, read, and write Common."
+				],
+				"type": "entries"
+			},
+			{
+				"name": "Tinker",
+				"entries": [
+					"You have proficiency with artisan's tools ({@item tinker's tools|phb}). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+					"When you create a device, choose one of the following options:",
+					{
+						"type": "entries",
+						"name": "Clockwork Toy",
+						"entries": [
+							"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Fire Starter",
+						"entries": [
+							"The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Music Box",
+						"entries": [
+							"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+						]
+					}
+				],
+				"type": "entries"
+			}
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"srd": true
+	},
 
 	"item": [{
 		"name": "Drui's Staff of Cuith ",
@@ -26,14 +158,14 @@
 		"weight": 4,
 		"dmg1": "1d8",
 		"dmg2": "1d6",
-		"dmgType": "P",
+		"dmgType": "B",
 		"property": [
 			"V"
 		],
 		"tier": "major",
 		"rarity": "uncommon",
 		"source": "Solderstones_Arcanations",
-		"value": 300,
+		"value": 3000,
 		"charges": 3,
 		"attachedSpells": [
 			"cure wounds"
@@ -43,7 +175,10 @@
 		"sfcType": "druid",
 
 		"entries": [
-			"Tilly's Staff."
+			"This staff, forged by Bartholomew Solderstone himself, was designed to aid his Druid companion Tilly Remulus and amplify her healing powers.",
+			"You gain a +1 bonus to attack and damage rolls made with this magic quarterstaff. While holding it, you gain a +1 to spell attack rolls.",
+			"This staff has 3 charges which are used to fuel the spells within it. With the staff in hand you can use your action to cast {@spell cure wounds} (1 charge). The staff regains all expended charges at dawn.",
+			"Essence of the Awakened: This staff glows faintly if awakened creatures are within 120ft of the wielder."
 		]
 	}]
 }
